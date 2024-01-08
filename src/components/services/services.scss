@@ -102,7 +102,11 @@
   .listContainer {
     flex: 2;
     display: flex;
+    padding: 0 50px;
+
     max-width: 1366px;
+    gap: 10px;
+    flex-wrap: wrap;
 
     @include mobile {
       flex-direction: column;
@@ -110,11 +114,17 @@
     }
 
     .box {
-      padding: 50px;
-      border: 0.5px solid gray;
+      padding: 10px;
+      border: 0.5px solid orange;
+      border-radius: 5px;
       display: flex;
       flex-direction: column;
+      text-align: center;
       justify-content: space-between;
+
+      :hover {
+        transform: scaleX(1.05);
+      }
 
       @include mobile {
         border: none;
@@ -123,26 +133,26 @@
         padding: 10px;
       }
 
-      p {
-        @include mobile {
-          display: none;
-        }
+      img {
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
       }
     }
-    button {
-      padding: 10px;
-      background-color: orange;
-      border: none;
-      cursor: pointer;
+  }
+  button {
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
 
-      @include mobile {
-        background-color: transparent;
-        border: 1px solid orange;
-        border-radius: 5px;
-        color: orange;
-        width: 50%;
-        padding: 5px;
-      }
+    @include mobile {
+      background-color: transparent;
+      border: 1px solid orange;
+      border-radius: 5px;
+      color: orange;
+      width: 50%;
+      padding: 5px;
     }
   }
 }

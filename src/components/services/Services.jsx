@@ -42,7 +42,7 @@ const Services = () => {
         <div className="title">
           <img src="./images/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> ideas
+            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> skills
           </h1>
         </div>
         <div className="title">
@@ -50,61 +50,96 @@ const Services = () => {
             <motion.b whileHover={{ color: "orange" }}>For Your </motion.b>{" "}
             Business.
           </h1>
-          <button>WHAT I DO?</button>
+          <button>Skills I use?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
+          whileHover={{ background: "orange", color: "black" }}
         >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            alias sint dolore itaque illo enim impedit tempora nam similique,
-            repellat quasi, nostrum ad odit ipsa doloremque ullam nulla fugiat
-            optio.
-          </p>
-          <button>Go</button>
+          <h2>JavaScript</h2>
+          <img src=" ./images/javascript.png " alt="JavaScript" />
         </motion.div>
         <motion.div
           className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
+          whileHover={{ background: "orange", color: "black" }}
         >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            alias sint dolore itaque illo enim impedit tempora nam similique,
-            repellat quasi, nostrum ad odit ipsa doloremque ullam nulla fugiat
-            optio.
-          </p>
-          <button>Go</button>
+          <h2>ReactJS</h2>
+          <img src="./images/reactjs.png  " alt="ReactJs" />
         </motion.div>
         <motion.div
           className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
+          whileHover={{ background: "orange", color: "black" }}
         >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            alias sint dolore itaque illo enim impedit tempora nam similique,
-            repellat quasi, nostrum ad odit ipsa doloremque ullam nulla fugiat
-            optio.
-          </p>
-          <button>Go</button>
+          <h2>NodeJS</h2>
+          <img src="./images/nodeJS.png  " alt="NodeJs" />
         </motion.div>
         <motion.div
           className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
+          whileHover={{ background: "orange", color: "black" }}
         >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            alias sint dolore itaque illo enim impedit tempora nam similique,
-            repellat quasi, nostrum ad odit ipsa doloremque ullam nulla fugiat
-            optio.
-          </p>
-          <button>Go</button>
+          <h2>ExpressJS</h2>
+          <img src="./images/expressJS.png  " alt="ExpressJS" />
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "orange", color: "black" }}
+        >
+          <h2>MongoDB</h2>
+          <img src="./images/mongoDB.png  " alt="MongoDB" />
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "orange", color: "black" }}
+        >
+          <h2>GitHub</h2>
+          <img src="./images/github.png  " alt="GitHub" />
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{
+            background: "orange",
+            color: "black",
+          }}
+        >
+          <h2>TailwindCSS</h2>
+          <img src="./images/tailwind.png  " alt="TaiwindCSS" />
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "orange", color: "black" }}
+        >
+          <h2>Bootstrap</h2>
+          <img src="./images/Bootstrap.jpg  " alt="Bootstrap" />
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "orange", color: "black" }}
+        >
+          <h2>SASS</h2>
+          <img src="./images/sass.png  " alt="SASS" />
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "orange", color: "black" }}
+        >
+          <h2>CSS</h2>
+          <img src="./images/css.png  " alt="CSS" />
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "orange", color: "black" }}
+        >
+          <h2>HTML</h2>
+          <img src=" ./images/html.png " alt="HTML" />
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "orange", color: "black" }}
+        >
+          <h2>VueJS</h2>
+          <img src=" ./images/vue.png " alt="HTML" />
         </motion.div>
       </motion.div>
     </motion.div>
