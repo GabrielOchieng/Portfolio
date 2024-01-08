@@ -7,25 +7,33 @@ const items = [
     id: 1,
     title: "ELCK CDC WEBSITE",
     img: "https://images.pexels.com/photos/764681/pexels-photo-764681.jpeg?auto=compress&cs=tinysrgb&w=600",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id cumque voluptates distinctio ab ullam? Laboriosam!",
+    desc: "A fully functional website project built using the MERN stack, having a landing page, registration, login and CRUD features.",
+    gitHub: "https://github.com/GabrielOchieng/elck-frontend",
+    demo: "https://elck-cdc.onrender.com",
   },
   {
     id: 2,
     title: "SKILLSCONNECT",
     img: "https://images.pexels.com/photos/5592760/pexels-photo-5592760.jpeg?auto=compress&cs=tinysrgb&w=600",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id cumque voluptates distinctio ab ullam? Laboriosam!",
+    desc: "Skillsconnect is a website that acts as a freelancing platform that seeks to connect open jobs/gigs to the best skills globally.",
+    gitHub: "https://github.com/GabrielOchieng/Skillsconnect",
+    demo: "https://skillsconnect.vercel.app",
   },
   {
     id: 3,
     title: "BOOKS STORE",
     img: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&w=600",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id cumque voluptates distinctio ab ullam? Laboriosam!",
+    desc: "A book store app for storing favourite books and accessing them whenever needed, with search functionalities",
+    gitHub: "https://github.com/GabrielOchieng/BookStore",
+    demo: "https://github.com/GabrielOchieng/BookStore",
   },
   {
     id: 4,
-    title: "MERN BLOG",
+    title: "BLOG APP",
     img: "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=600",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id cumque voluptates distinctio ab ullam? Laboriosam!",
+    desc: "A blog that enables one to Create, Read, Update and delete blogs",
+    gitHub: "https://github.com/GabrielOchieng/Blog",
+    demo: "https://github.com/GabrielOchieng/Blog",
   },
 ];
 
@@ -51,7 +59,14 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <div className="buttons">
+              <a href={item.demo} target="_blank">
+                Demo
+              </a>{" "}
+              <a href={item.gitHub} target="blank">
+                Github
+              </a>
+            </div>
           </motion.div>
         </div>
       </div>
@@ -75,7 +90,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" ref={ref}>
       <div className="progress">
-        <h1>Featured Works</h1>
+        <h1>Featured Projects</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (
