@@ -5,9 +5,10 @@
   overflow: hidden;
   background: linear-gradient(180deg, #0c0c1d, #111132);
   position: relative;
+  max-width: 1200px;
+  margin: auto;
 
   .wrapper {
-    max-width: 1366px;
     height: 100%;
     margin: auto;
 
@@ -75,6 +76,7 @@
     img {
       height: 100%;
       width: 100%;
+      border-radius: 50%;
       object-fit: cover;
     }
   }

@@ -11,7 +11,7 @@ const items = [
   },
   {
     id: 2,
-    title: "SKILLS CONNECT",
+    title: "SKILLSCONNECT",
     img: "https://images.pexels.com/photos/5592760/pexels-photo-5592760.jpeg?auto=compress&cs=tinysrgb&w=600",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id cumque voluptates distinctio ab ullam? Laboriosam!",
   },

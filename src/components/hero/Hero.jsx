@@ -73,7 +73,7 @@ const Hero = () => {
         Frontend Developer MERN-Stack Specialist
       </motion.div>
       <div className="imageContainer">
-        <img src="./images/Gabriel.jpeg" alt="" />
+        <img src="./images/Gab.jpeg" alt="" />
       </div>
     </div>
   );

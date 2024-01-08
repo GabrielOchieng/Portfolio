@@ -2,6 +2,7 @@
 
 .portfolio {
   position: relative;
+
   .progress {
     position: sticky;
     top: 0;
@@ -27,6 +28,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    max-width: 1200px;
+    margin: auto;
     height: 100%;
     overflow: hidden;
 

@@ -20,16 +20,19 @@ const Navbar = () => {
           THEGABRIELSHOW
         </motion.span>
         <div className="social">
-          <a href="https://www.linkedin.com/in/gabrielochieng">
+          <a href="https://www.linkedin.com/in/gabrielochieng" target="blank">
             <BsLinkedin className="iconso" />
           </a>
-          <a href="https://www.linkedin.com/in/gabrielochieng">
+          <a href="https://github.com/GabrielOchieng" target="blank">
             <BsGithub className="iconso" />
           </a>
-          <a href="https://www.linkedin.com/in/gabrielochieng">
+          <a
+            href="https://x.com/TechieGabriel?t=D8iyVIeZnEVOlPdImbJ2HQ&s=09"
+            target="blank"
+          >
             <BsTwitterX className="iconso" />
           </a>
-          <a href="https://www.linkedin.com/in/gabrielochieng">
+          <a href="https://www.linkedin.com/in/gabrielochieng" target="blank">
             <BsFacebook className="iconso" />
           </a>
         </div>
