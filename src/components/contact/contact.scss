@@ -55,6 +55,23 @@
       position: absolute;
       margin: auto;
       z-index: -1;
+
+      @include mobile {
+        display: none;
+      }
+    }
+
+    .phoneSvgmobile {
+      display: none;
+
+      @include mobile {
+        stroke: orange;
+        position: absolute;
+        margin: auto;
+        z-index: -1;
+        padding-left: 20px;
+        display: block;
+      }
     }
 
     form {
