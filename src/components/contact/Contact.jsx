@@ -24,6 +24,8 @@ const Contact = () => {
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
 
+  const isInView = useInView(ref, { margin: "-100px" });
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -44,10 +46,9 @@ const Contact = () => {
       );
   };
 
-  const isInView = useInView(ref, { margin: "-100px" });
-
   return (
     <motion.div
+      ref={ref}
       className="contact"
       variants={variants}
       initial="initial"
