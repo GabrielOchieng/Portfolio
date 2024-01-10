@@ -20,6 +20,10 @@
       justify-content: center;
       gap: 40px;
 
+      @include tablet {
+        gap: 20px;
+      }
+
       @include mobile {
         height: 50%;
         width: 100%;
@@ -32,6 +36,9 @@
         font-size: 30px;
         color: rebeccapurple;
         letter-spacing: 10px;
+
+        @include tablet {
+        }
       }
       h1 {
         font-size: 88px;
@@ -79,10 +86,15 @@
       border-radius: 50%;
       object-fit: cover;
 
-      @include mobile {
-        width: 40%;
+      @include tablet {
+        width: 70%;
         height: 50%;
         margin-left: 100px;
+      }
+      @include mobile {
+        width: 200px;
+        height: 200px;
+        margin-left: 30vw;
       }
     }
   }
