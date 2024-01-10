@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import "./services.scss";
 import { motion, useInView } from "framer-motion";
+import { BsArrow90DegRight } from "react-icons/bs";
 
 const variants = {
   initial: {
@@ -50,7 +51,9 @@ const Services = () => {
             <motion.b whileHover={{ color: "orange" }}>For Your </motion.b>{" "}
             Business.
           </h1>
-          <button>Skills I use?</button>
+          <button>
+            Skills I use? <BsArrow90DegRight className="arrowdown" />
+          </button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
