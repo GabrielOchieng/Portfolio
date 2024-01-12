@@ -14,7 +14,7 @@ const items = [
   {
     id: 2,
     title: "SKILLSCONNECT",
-    img: "https://images.pexels.com/photos/5592760/pexels-photo-5592760.jpeg?auto=compress&cs=tinysrgb&w=600",
+    img: "https://images.pexels.com/photos/5598301/pexels-photo-5598301.jpeg?auto=compress&cs=tinysrgb&w=600",
     desc: "Skillsconnect is a website that acts as a freelancing platform that seeks to connect open jobs/gigs to the best skills globally.",
     gitHub: "https://github.com/GabrielOchieng/Skillsconnect",
     demo: "https://skillsconnect.vercel.app",
