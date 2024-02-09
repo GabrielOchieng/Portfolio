@@ -52,17 +52,13 @@ const Hero = () => {
           <motion.p variants={textVariants}>
             I am an experienced Software Developer adept in bringing forth
             expertise in design, installation, testing and maintenance of
-            software systems. Proficient in various platforms, languages, and
-            embedded systems. Experienced with the latest cutting edge
-            development tools and procedures. Able to effectively self-manage
-            during independent projects, as well as collaborate as part of a
-            productive team.
+            software systems.
           </motion.p>
 
           <motion.div className="buttons" variants={textVariants}>
             <AnchorLink href="#Portfolio">
               <motion.button variants={textVariants}>
-                See the latest work
+                See my latest work
               </motion.button>
             </AnchorLink>
             <AnchorLink href="#Contact">
@@ -85,7 +81,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Frontend Developer
+        Software Developer
       </motion.div>
       <div className="imageContainer">
         <img src="./images/Gab.jpeg" alt="Gabriel's image" />
