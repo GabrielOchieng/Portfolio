@@ -61,6 +61,11 @@
           font-weight: 300;
           cursor: pointer;
         }
+        button:hover {
+          background-color: rebeccapurple;
+          font-weight: bold;
+          border: none;
+        }
       }
 
       img {
