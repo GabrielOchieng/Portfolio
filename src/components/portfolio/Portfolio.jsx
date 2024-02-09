@@ -5,6 +5,14 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
+    title: "CLEARLINK",
+    img: "https://images.pexels.com/photos/6753222/pexels-photo-6753222.jpeg?auto=compress&cs=tinysrgb&w=600",
+    desc: "Task done of creating a ClearLink website project from a Figma design project",
+    gitHub: "https://github.com/GabrielOchieng/ClearLink",
+    demo: "https://clear-link-gabrielochieng.vercel.app",
+  },
+  {
+    id: 2,
     title: "ELCK CDC WEBSITE",
     img: "https://images.pexels.com/photos/764681/pexels-photo-764681.jpeg?auto=compress&cs=tinysrgb&w=600",
     desc: "A fully functional website project built using the MERN stack, having a landing page, registration, login and CRUD features.",
@@ -12,15 +20,16 @@ const items = [
     demo: "https://elck-cdc.onrender.com",
   },
   {
-    id: 2,
+    id: 3,
     title: "SKILLSCONNECT",
     img: "https://images.pexels.com/photos/5598301/pexels-photo-5598301.jpeg?auto=compress&cs=tinysrgb&w=600",
     desc: "Skillsconnect is a website that acts as a freelancing platform that seeks to connect open jobs/gigs to the best skills globally.",
     gitHub: "https://github.com/GabrielOchieng/Skillsconnect",
     demo: "https://skillsconnect.vercel.app",
   },
+
   {
-    id: 3,
+    id: 4,
     title: "BOOKS STORE",
     img: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&w=600",
     desc: "A book store app for storing favourite books and accessing them whenever needed, with search functionalities",
@@ -28,7 +37,7 @@ const items = [
     demo: "https://github.com/GabrielOchieng/BookStore",
   },
   {
-    id: 4,
+    id: 5,
     title: "BLOG APP",
     img: "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=600",
     desc: "A blog that enables one to Create, Read, Update and delete blogs",
